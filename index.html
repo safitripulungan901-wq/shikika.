@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Ria Agustin</title>
+    <!-- Ikon dari Font Awesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+    <style>
+        /* === Gaya Umum === */
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            background: linear-gradient(135deg, #b3e5fc, #000000);
+            color: #222;
+            text-align: center;
+            overflow-x: hidden;
+        }
+
+        header {
+            padding: 40px 10px;
+            color: #fff;
+            background: rgba(0, 0, 0, 0.6);
+            box-shadow: 0 3px 15px rgba(0,0,0,0.4);
+            animation: fadeInDown 1.5s ease;
+        }
+
+        header img {
+            width: 150px;
+            border-radius: 50%;
+            border: 3px solid #b3e5fc;
+            margin-top: 15px;
+            transition: transform 0.5s;
+        }
+
+        header img:hover {
+            transform: scale(1.05) rotate(3deg);
+        }
+
+        h1 {
+            font-size: 2.2em;
+            margin-bottom: 5px;
+        }
+
+        nav {
+            margin-top: 15px;
+        }
+
+        nav a {
+            margin: 0 15px;
+            color: #b3e5fc;
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #fff;
+        }
+
+        section {
+            background: #fff;
+            border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            max-width: 700px;
+            margin: 30px auto;
+            padding: 25px;
+            text-align: left;
+            animation: fadeInUp 1.5s ease;
+        }
+
+        section h2 {
+            color: #0077c2;
+        }
+
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        footer {
+            background: rgba(0,0,0,0.7);
+            color: #b3e5fc;
+            padding: 15px;
+            font-size: 14px;
+        }
+
+        /* === Ikon Sosial === */
+        .social-icons {
+            margin-top: 15px;
+        }
+
+        .social-icons a {
+            margin: 0 10px;
+            font-size: 24px;
+            color: #b3e5fc;
+            transition: transform 0.3s, color 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: #fff;
+            transform: scale(1.2);
+        }
+
+        /* === Animasi === */
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Ria Agustin</h1>
+        <p>Mahasiswi | Desainer | Penggemar Teknologi</p>
+        <img src="cia.jpg" alt="Foto Ria">
+        <nav>
+            <a href="#tentang">Tentang</a>
+            <a href="#keahlian">Keahlian</a>
+            <a href="#kontak">Kontak</a>
+        </nav>
+    </header>
+
+    <section id="tentang">
+        <h2>Tentang Saya</h2>
+        <p>Halo! Saya <b>Ria Agustin</b>, mahasiswi yang menyukai desain web, teknologi, dan kreativitas digital.
+        Saya senang belajar hal baru dan menciptakan karya yang bermakna serta menarik secara visual.</p>
+    </section>
+
+    <section id="keahlian">
+        <h2>Keahlian</h2>
+        <ul>
+            <li>Desain Grafis (Canva, Photoshop)</li>
+            <li>Pemrograman Web (HTML, CSS)</li>
+            <li>UI/UX Dasar</li>
+            <li>Microsoft Office</li>
+        </ul>
+    </section>
+
+    <section id="kontak">
+        <h2>Kontak</h2>
+        <p>Email: <a href="mailto:shikikanee@gmail.com">shikikanee@gmail.com</a></p>
+        <p>Instagram: <a href="https://instagram.com/shikikanee" target="_blank">@shikikanee</a></p>
+
+        <div class="social-icons">
+            <a href="mailto:shikikanee@gmail.com"><i class="fas fa-envelope"></i></a>
+            <a href="https://instagram.com/shikikanee" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Ria Agustin | Dibuat dengan 💙 dan semangat kreatif</p>
+    </footer>
+</body>
+</html>
